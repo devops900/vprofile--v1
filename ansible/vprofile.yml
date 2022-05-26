@@ -1,5 +1,5 @@
 ---
-- hosts: tomcatservers ...
+- hosts: tomcatservers
   become: yes
   gather_facts: False
   tasks:
